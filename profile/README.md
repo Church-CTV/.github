@@ -1,5 +1,10 @@
 # Church CTV
 
+Owned and maintained by GitHub `@dominick253`. For permission requests,
+commercial licensing, sales or support, email `dominick253@gmail.com`.
+Only the owner approves project ownership and permission decisions.
+Do not send credentials or other secrets. Draft licensing remains nonoperative.
+
 Television applications for churches, without a software subscription requirement.
 
 Our goal is free church self-hosting, sustainable cost-recovery managed church
