@@ -1,34 +1,53 @@
 # Church CTV
 
-Owned and maintained by GitHub `@dominick253`. For permission requests,
-commercial licensing, sales or support, email `dominick253@gmail.com`.
-Only the owner approves project ownership and permission decisions.
-Do not send credentials or other secrets. Draft licensing remains nonoperative.
+Television software for churches: one shared platform, several televisions, and
+no software subscription for a congregation that runs it itself.
 
-Television applications for churches, without a software subscription requirement.
+Owned and maintained by GitHub `@dominick253`, who is also the only person who
+can decide ownership, permissions and commercial licensing.
 
-Our goal is free church self-hosting, sustainable cost-recovery managed church
-hosting, and full-price commercial managed services that fund continued work.
+## Four repositories, one platform
 
-## One platform, several televisions
+| Repository | What it is |
+| --- | --- |
+| `platform-server` | feeds, channel configuration, media, analytics, administration |
+| `roku-app` | the configurable Roku application |
+| `android-tv-app` | the Android TV and Fire TV application |
+| `web-tv-app` | shared Samsung Tizen, LG webOS and Vizio application |
 
-- **platform-server** — configuration, feeds, media, analytics and administration.
-- **roku-app** — the configurable Roku application.
-- **android-tv-app** — the Android TV and Fire TV application.
-- **web-tv-app** — shared Samsung Tizen, LG webOS and Vizio application source.
+Channels are configuration, not code forks. Each platform keeps its own SDK,
+signing and store boundaries, and they share versioned contracts, so the same
+church profile drives all four.
 
-Channels are configuration, not separate code forks. Platforms keep their own
-build/signing boundaries and share versioned interfaces.
+## Public source, church-use license
 
-## Source availability
+The source is published under the **Church CTV Community Source License 1.0**
+(`LICENSE` in each repository): an eligible church may run, modify and deploy it
+for its own worship and ministry at no license fee, with no channel or viewer
+cap and no requirement to buy hosting. Independent commercial operation, resale,
+white-label products and competing managed hosting need separate rights from the
+owner, and deployed modifications carry a share-back duty. It is source
+available rather than OSI open source, on purpose: that is what keeps the
+congestion-priced, self-hosted path free.
 
-We are preparing a source-available church-use edition, not an unrestricted
-open-source license. Commercial operation/resale will require separate rights;
-deployed modifications will have share-back duties.
+## Getting in touch
 
-The repositories are private release candidates, awaiting security, dependency,
-ownership, asset and legal review. Draft licenses grant no public use rights.
-Source access does not imply a hosted service, store approval or support.
+**Open an issue in the relevant repository for questions about the software.**
+Anyone may, with no approval and no fee. Tell us the repository, version,
+platform and what you expected versus what happened.
 
-Credentials, signing keys, personal information, production profiles and private
-operations records do not belong in these repositories.
+Email `dominick253@gmail.com` for commercial licensing, self-hosting quotes,
+church-eligibility confirmation, permission requests, sales and support. Use the
+**Report a vulnerability** form on a repository's Security tab for security
+problems, never a public issue.
+
+Do not post or email secrets: no passwords, API tokens, private keys, signing
+material, member data, private endpoints or customer names attached to a
+commercial fact.
+
+## What is not promised
+
+No hosted service, uptime commitment, support SLA, store approval or device
+certification comes with this source; unrun device and store checks stay named
+as unrun in each repository's `RELEASE-STATUS.md`. Production for the existing
+channels is separate from this source and is not changed by publishing it.
