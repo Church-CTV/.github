@@ -30,7 +30,7 @@ notes; coordinated disclosure is agreed with the reporter where possible.
 Removing a file is not revocation: a credential that appeared in any past
 revision or CI log must be rotated at its issuer, and rotation on a live system
 is a separate authorized change. Configuration and secret placement rules are in
-`RUNTIME-CONFIGURATION.md`. Never commit a production value to "make CI green";
+`RUNTIME-CONFIGURATION.md` in the `platform-server` repository. Never commit a production value to "make CI green";
 an unset credential must make the build produce a debug/unsigned artifact or
 fail with a reason. Client applications must never carry server credentials,
 because a packaged TV application reveals its own configuration.

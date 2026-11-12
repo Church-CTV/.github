@@ -20,7 +20,8 @@ product repository's Security tab, never a public issue. See `SUPPORT.md`,
 | `SECURITY.md` | the private reporting channel and its limits |
 | `CONTRIBUTING.md` | how a change is proposed, tested and merged |
 | `RELEASE-STATUS.md` | what "public source" does not mean |
-| `ISSUE_TEMPLATE/` | the default issue forms these repositories inherit |
+| `ISSUE_TEMPLATE/` | the default issue forms the product repositories inherit |
+| `.github/ISSUE_TEMPLATE/` | the same three forms, for this repository itself |
 
 Public source is not a supported release, a store approval, a device
 certification or a production migration, and publishing this source did not move
